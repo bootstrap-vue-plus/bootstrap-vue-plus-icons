@@ -1,0 +1,25 @@
+{
+  "name": "@bootstrap-vue-plus/root",
+  "private": true,
+  "license": "MIT",
+  "scripts": {
+    "dev": "pnpm run -C playground dev",
+    "build": "pnpm run -C ./packages/vue build",
+    "lint": "eslint . --ext .vue,.js,.ts,.jsx,.tsx,.json --max-warnings 0",
+    "lint:fix": "eslint --fix . --ext .vue,.js,.ts,.jsx,.tsx,.json --max-warnings 0",
+    "format": "prettier --write . && pnpm run -C ./packages/svg optimize",
+    "release": "bumpp packages/*/package.json"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.30.3",
+    "@typescript-eslint/parser": "^5.30.3",
+    "bumpp": "^8.2.1",
+    "eslint": "^8.18.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-define-config": "^1.5.1",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-vue": "^9.1.1",
+    "prettier": "^2.7.1",
+    "typescript": "^4.7.4"
+  }
+}

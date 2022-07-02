@@ -1,0 +1,29 @@
+{
+  "name": "@bootstrap-vue-plus/icons-svg",
+  "version": "0.0.0-alpha.0",
+  "description": "SVG icon for Bootstrap Vue Plus Icons collection.",
+  "keywords": [
+    "icon",
+    "svg",
+    "bootstrap-vue-plus"
+  ],
+  "license": "MIT",
+  "homepage": "https://bootstrap-vue-plus.com/",
+  "bugs": {
+    "url": "https://github.com/bootstrap-vue-plus/bootstrap-vue-plus-icons/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/element-plus/element-plus-icons.git",
+    "directory": "packages/svg"
+  },
+  "files": [
+    "*.svg"
+  ],
+  "scripts": {
+    "optimize": "svgo -f . -o ."
+  },
+  "devDependencies": {
+    "svgo": "^2.8.0"
+  }
+}
