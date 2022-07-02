@@ -14,7 +14,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/element-plus/element-plus-icons.git",
+    "url": "git+https://github.com/bootstrap-vue-plus/bootstrap-vue-plus-icons.git",
     "directory": "packages/svg"
   },
   "files": [

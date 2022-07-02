@@ -7,7 +7,7 @@
     "icon",
     "svg",
     "vue",
-    "element-plus"
+    "bootstrap-vue-plus"
   ],
   "license": "MIT",
   "homepage": "https://bootstrap-vue-plus.com/",
