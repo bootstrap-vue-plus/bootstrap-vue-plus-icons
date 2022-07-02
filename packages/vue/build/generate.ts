@@ -13,9 +13,9 @@ import { pathComponents } from './paths'
 import type { BuiltInParserName } from 'prettier'
 
 const getSvgFiles = async () => {
-  const pkgs = await // @ts-expect-error
+  const pkgs = await // @ts-expect-error todo
   (findWorkspacePackages.default as typeof findWorkspacePackages)(
-    // @ts-expect-error
+    // @ts-expect-error todo
     (await findWorkspaceDir.default(process.cwd()))!
   )
   const pkg = pkgs.find(

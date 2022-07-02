@@ -32,7 +32,7 @@ const buildBundle = async () => {
       outdir: pathOutput,
     }
     if (format === 'iife') {
-      options.plugins!.push(
+      options.plugins?.push(
         GlobalsPlugin({
           vue: 'Vue',
         })
