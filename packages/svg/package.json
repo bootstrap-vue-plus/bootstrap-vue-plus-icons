@@ -18,7 +18,8 @@
     "directory": "packages/svg"
   },
   "files": [
-    "*.svg"
+    "*.svg",
+    "README.md"
   ],
   "scripts": {
     "optimize": "svgo -f . -o ."
